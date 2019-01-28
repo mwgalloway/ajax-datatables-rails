@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files`.split("\n")
 
-  s.add_runtime_dependency 'railties', '>= 4.2'
+  s.add_runtime_dependency 'railties', '>= 3.1'
 
-  s.add_development_dependency 'rails', '>= 4.2'
+  s.add_development_dependency 'rails', '>= 3.1'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'pg', '< 1.0'
   s.add_development_dependency 'mysql2'
